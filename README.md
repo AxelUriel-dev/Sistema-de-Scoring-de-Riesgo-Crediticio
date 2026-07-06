@@ -1,10 +1,10 @@
-[README.md](https://github.com/user-attachments/files/29723451/README.md)
+[README.md](https://github.com/user-attachments/files/29723665/README.md)
 # Sistema de Scoring de Riesgo Crediticio
 
 Proyecto de portafolio de Data Science — predicción de default (impago) en solicitudes
 de crédito, usando SQL, Python/scikit-learn y Power BI.
 
-## Resumen
+## Resumen 
 
 Construí un modelo de clasificación (Random Forest, ROC-AUC 0.80) que predice la
 probabilidad de que un solicitante de crédito haga default. Pero el hallazgo con
@@ -145,12 +145,16 @@ menos de 15 observaciones por baja confiabilidad estadística, con un mensaje
 automático que avisa cuando un segmento filtrado no tiene datos suficientes.
 Incluye 3 filtros interactivos (rango de edad, tipo de vivienda, propósito).
 
+![Panorama de la cartera](images/dashboard_pagina1.png)
+
 **Página 2 — Desempeño del modelo:** matriz de confusión en lenguaje de negocio (ej.
 "buen cliente rechazado" en vez de "falso positivo"), distribución de solicitudes
 por nivel de riesgo, y un gráfico de dispersión que cruza probabilidad de default
 con monto del préstamo — coloreado por tipo de resultado (verde = acierto,
 naranja/rojo = error) para identificar visualmente dónde se concentran los errores
 más costosos.
+
+![Desempeño del modelo](images/dashboard_pagina2.png)
 
 ## Limitaciones y consideraciones honestas
 
