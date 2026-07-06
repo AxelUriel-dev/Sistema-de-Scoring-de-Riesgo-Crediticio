@@ -145,7 +145,7 @@ menos de 15 observaciones por baja confiabilidad estadística, con un mensaje
 automático que avisa cuando un segmento filtrado no tiene datos suficientes.
 Incluye 3 filtros interactivos (rango de edad, tipo de vivienda, propósito).
 
-![Panorama de la cartera](images/dashboard_pagina1.png)
+![Panorama de la cartera](dashboard_pagina1.png)
 
 **Página 2 — Desempeño del modelo:** matriz de confusión en lenguaje de negocio (ej.
 "buen cliente rechazado" en vez de "falso positivo"), distribución de solicitudes
@@ -154,7 +154,7 @@ con monto del préstamo — coloreado por tipo de resultado (verde = acierto,
 naranja/rojo = error) para identificar visualmente dónde se concentran los errores
 más costosos.
 
-![Desempeño del modelo](images/dashboard_pagina2.png)
+![Desempeño del modelo](dashboard_pagina2.png)
 
 ## Limitaciones y consideraciones honestas
 
